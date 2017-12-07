@@ -7,6 +7,8 @@
 1. 实现K-means算法
 1. 实现神经网络对样本进行分类
 ## 车牌字符识别：
+### 数据分布：
+![](./vehicle/images/distribution.png)
 ### 训练集和验证集：
 生成TFrecord文件：根据文件目录顺序读取(利用os.listdir()函数)其中80%用于生成训练集，20%生成验证集。<br/>
 根据函数sklearn.utils.shuffle()函数进行乱序<br/>
